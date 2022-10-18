@@ -1,5 +1,6 @@
 import tensorflow as tf
 import numpy as np
+from tensorflow import keras
 
 
 class Model(object):
@@ -64,12 +65,6 @@ plt.legend(['W', 'b', 'True W', 'True b'])
 plt.show()
 
 
-
-
-import tensorflow as tf
-from tensorflow import keras
-
-import numpy as np
 
 data_size = 1000
 # 80% of the data is for training.
